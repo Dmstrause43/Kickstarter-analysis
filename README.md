@@ -16,7 +16,7 @@
     
   The code in which we did this was a 'COUNTIFS' function that included the financial goal range, the outcome situation, and the "plays" subcategory (shown below). We then created a chart based off the percentage of total projects in the goal range. This visual of the percentage difference between successful, failed, and canceled campaigns helps us determine which incremental goal ranges make the most sense to choose to have a more successful outcome. 
   
-  
+ ![image](https://user-images.githubusercontent.com/75653952/102956102-24082580-449d-11eb-9daf-b4b68a496d8c.png) 
     
   For the second anaylsis, we were trying to figure out when the best time to post a new campaign would be for the "theater" parent category. In order to get this to work properly, we had to first convert the 'deadline' and 'launched_at' columns in unix format to short date format.
   

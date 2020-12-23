@@ -2,7 +2,7 @@
 ## Overview of project
   The purpose and background was to help Louise find out more about the successes and failures of different Kickstarter campaigns based off their launch dates and their funding goals. We used Kickstarter data that dated back to 2009 and from various countries as well as various goals in many different categories and subcategories to see what Louise could do to make her campaign as successful as possible. 
 ## Analysis and Challenges
-  ###Analysis
+  ### Analysis
     There were two categories that we were mainly trying to figure out for Louise's situation. One was outcomes based on financial goal set by the kickstarters. Second was finding out what the theater outcomes would be based on the launch date of the campaign. 
     For the first analysis, we took incremental ranges of set financial goals (starting at less than 1000, greater than 50000, and then increments of 4000 inbetween) from the campaigners. With those increments in mind, we analyzed the number of successful, failed, and canceled campaigns. Additionally, filtered the data by analyzing campains based mainly on the subcategory of "plays" as that is what Louise is most interested in and was the most pertenent to her campaign.
     The code in which we did this was a 'COUNTIFS' function that included the financial goal range, the outcome situation, and the "plays" subcategory. We then created a chart based off the percentage of total projects in the goal range. This visual of the percentage difference between successful, failed, and canceled campaigns helps us determine which incremental goal ranges make the most sense to choose to have a more successful outcome. 

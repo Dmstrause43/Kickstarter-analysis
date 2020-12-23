@@ -18,11 +18,11 @@
   
  ![image](https://user-images.githubusercontent.com/75653952/102956102-24082580-449d-11eb-9daf-b4b68a496d8c.png) 
     
-  For the second anaylsis, we were trying to figure out when the best time to post a new campaign would be for the "theater" parent category. In order to get this to work properly, we had to first convert the 'deadline' and 'launched_at' columns in unix format to short date format.
+  For the second anaylsis, we were trying to figure out when the best time to post a new campaign would be for the "theater" parent category. In order to get this to work properly, we had to first convert the 'deadline' and 'launched_at' columns in unix format to short date format (shown below).
   
 ![image](https://user-images.githubusercontent.com/75653952/102957306-b7425a80-449f-11eb-83b0-de144396f809.png)  
   
-  We then separated the year from the shortdate in the next column. We then created a pivot table to then deduce the count of how many successful, failed, and canceled outcomes there were per month per the theater category. We then charted this to create a visual to display which months would be best to launch a new campaign and which months to avoid.
+  We then separated the year from the shortdate in the next column. We then created a pivot table to then deduce the count of how many successful, failed, and canceled outcomes there were per month per the theater category. We then charted this to create a visual to display which months would be best to launch a new campaign and which months to avoid (shown below).
   
  ![image](https://user-images.githubusercontent.com/75653952/102957339-cf19de80-449f-11eb-9699-9a4ba306f402.png) 
     

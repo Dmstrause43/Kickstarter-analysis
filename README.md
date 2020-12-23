@@ -10,11 +10,21 @@
   
   There were two categories that we were mainly trying to figure out for Louise's situation. One was outcomes based on financial goal set by the kickstarters. Second was finding out what the theater outcomes would be based on the launch date of the campaign.
     
-  For the first analysis, we took incremental ranges of set financial goals (starting at less than 1000, greater than 50000, and then increments of 4000 inbetween) from the campaigners. With those increments in mind, we analyzed the number of successful, failed, and canceled campaigns. Additionally, filtered the data by analyzing campains based mainly on the subcategory of "plays" as that is what Louise is most interested in and was the most pertenent to her campaign.
+  For the first analysis, we took incremental ranges of set financial goals (starting at less than 1000, greater than 50000, and then increments of 4000 inbetween - shown below) from the campaigners. With those increments in mind, we analyzed the number of successful, failed, and canceled campaigns. Additionally, filtered the data by analyzing campaigns based mainly on the subcategory of "plays" as that is what Louise is most interested in and was the most pertenent to her campaign.
+  
+  
     
-  The code in which we did this was a 'COUNTIFS' function that included the financial goal range, the outcome situation, and the "plays" subcategory. We then created a chart based off the percentage of total projects in the goal range. This visual of the percentage difference between successful, failed, and canceled campaigns helps us determine which incremental goal ranges make the most sense to choose to have a more successful outcome. 
+  The code in which we did this was a 'COUNTIFS' function that included the financial goal range, the outcome situation, and the "plays" subcategory (shown below). We then created a chart based off the percentage of total projects in the goal range. This visual of the percentage difference between successful, failed, and canceled campaigns helps us determine which incremental goal ranges make the most sense to choose to have a more successful outcome. 
+  
+  
     
-  For the second anaylsis, we were trying to figure out when the best time to post a new campaign would be for the "theater" parent category. In order to get this to work properly, we had to first convert the 'deadline' and 'launched_at' columns in unix format to short date format. (include screenshot of equation used) We then separated the year from the shortdate in the next column. We then created a pivot table to then deduce the count of how many successful, failed, and canceled outcomes there were per month per the theater category. We then charted this to create a visual to display which months would be best to launch a new campaign and which months to avoid.
+  For the second anaylsis, we were trying to figure out when the best time to post a new campaign would be for the "theater" parent category. In order to get this to work properly, we had to first convert the 'deadline' and 'launched_at' columns in unix format to short date format.
+  
+  
+  
+  We then separated the year from the shortdate in the next column. We then created a pivot table to then deduce the count of how many successful, failed, and canceled outcomes there were per month per the theater category. We then charted this to create a visual to display which months would be best to launch a new campaign and which months to avoid.
+  
+  
     
 ### Challenges
   

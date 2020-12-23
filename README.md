@@ -24,7 +24,7 @@
   
   We then separated the year from the shortdate in the next column. We then created a pivot table to then deduce the count of how many successful, failed, and canceled outcomes there were per month per the theater category. We then charted this to create a visual to display which months would be best to launch a new campaign and which months to avoid.
   
-  
+ ![image](https://user-images.githubusercontent.com/75653952/102957339-cf19de80-449f-11eb-9699-9a4ba306f402.png) 
     
 ### Challenges
   

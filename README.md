@@ -12,7 +12,7 @@
     
   For the first analysis, we took incremental ranges of set financial goals (starting at less than 1000, greater than 50000, and then increments of 4000 inbetween - shown below) from the campaigners. With those increments in mind, we analyzed the number of successful, failed, and canceled campaigns. Additionally, filtered the data by analyzing campaigns based mainly on the subcategory of "plays" as that is what Louise is most interested in and was the most pertenent to her campaign.
   
-  
+ ![image](https://user-images.githubusercontent.com/75653952/102957258-9a0d8c00-449f-11eb-9cea-ff54c01e1c75.png) 
     
   The code in which we did this was a 'COUNTIFS' function that included the financial goal range, the outcome situation, and the "plays" subcategory (shown below). We then created a chart based off the percentage of total projects in the goal range. This visual of the percentage difference between successful, failed, and canceled campaigns helps us determine which incremental goal ranges make the most sense to choose to have a more successful outcome. 
   
